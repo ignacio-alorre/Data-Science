@@ -1,4 +1,3 @@
-# importing required libraries 
 # Importing required libraries 
 import numpy as np 
 import matplotlib.pyplot as plt 
@@ -14,10 +13,10 @@ from matplotlib.colors import ListedColormap
 
 # PART 1- APPLYING PCA (D2) TO A DATASET
 
-# importing or loading the dataset 
+# Importing or loading the dataset 
 dataset = pd.read_csv('wine.csv') 
 
-# distributing the dataset into two components X and Y 
+# Distributing the dataset into two components X and Y 
 X = dataset.iloc[:, 0:13].values 
 y = dataset.iloc[:, 13].values 
   
